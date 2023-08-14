@@ -1,27 +1,36 @@
-# AuthApp
+<p align="center">
+  <a href="https://www.angular.io/" target="blank"><img src="https://angular.io/assets/images/logos/angular/angular.svg" width="200" alt="Angular Logo"/></a>
+</p>
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.1.1.
+# FrontEnd Auth MEAN App.
 
-## Development server
+Aplicación creada utilizando **CSS** en la que se hace consumo de un sistema de autenticación personalizado realizado con [NestJS](http://nestjs.com/), [Docker](https://www.docker.com/) y [MongoDB](https://www.mongodb.com).
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+El proceso de comunicación de interacción entre el **FrontEnd** y el **BackEnd** está basado en **Signals** (solo disponible a partir de Angular 16).
 
-## Code scaffolding
+La App solo es demostrativa, no contiene información alguna, solo funciona para hacer el registro de Nuevos Usuarios, Login y Logout.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Algunos de los conceptos utilizados para la generación de ésta App, son:
 
-## Build
+1. Formularios Reactivos.
+2. Functional Guards.
+3. Manejo de autenticación.
+4. Signals.
+5. Effects.
+6. Manejo de Errores.
+7. SweetAlert.
+8. Determinación de estado de autenticación.
+9. Manejo de JWTs.
+10. Headers de petición HTTP.
+11. CORS.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
 
-## Running unit tests
+Este proyecto fue generado con [Angular CLI](https://github.com/angular/angular-cli) versión 16.1.1.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Servidor de Desarrollo
 
-## Running end-to-end tests
+1. Clona el proyecto para extraer los datos del repositorio.
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+2. Ejecuta `npm install` para descargar e instalar los paquetes necesarios para la ejecución de la app.
 
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+3. Ejecuta `ng serve` para generar un servidor de desarrollo. Navega a `http://localhost:4200/`. La aplicación se recargará automáticamente si cambia alguno de los archivos de origen.
